@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="flex flex-col items-center text-amber-800 font-bold tracking-wide">
             <span className="text-xs md:text-sm tracking-widest">LKK</span>
             <img
-              src="/public/Elephant_Head.svg"
+              src="/images/Elephant_Head.svg"
               alt="Elephant Head Logo"
               height={10}
               width={50}
