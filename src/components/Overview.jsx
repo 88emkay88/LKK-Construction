@@ -6,10 +6,10 @@ const Overview = () => {
     <div id="about" className="md:px-20 px-10 md:pt-20 pt-10">
       <div className="md:grid grid-cols-2 items-center gap-5">
         <div className="w-full flex justify-center mb-4">
-        <img
-          src="/public/images/Hammer-tools.jpg"
-          alt="Hammer and tools"
-          className="rounded-2xl md:w-full w-1/2"
+          <img
+            src="/images/Hammer-tools.jpg"
+            alt="Hammer and tools"
+            className="rounded-2xl md:w-full w-1/2"
           />
         </div>
 
@@ -85,7 +85,10 @@ const Overview = () => {
             </ul>
           </div>
 
-          <a href="#contact" className="mt-10 bg-amber-400 hover:bg-yellow-400 cursor-pointer text-amber-100 rounded-xl py-2 px-12">
+          <a
+            href="#contact"
+            className="mt-10 bg-amber-400 hover:bg-yellow-400 cursor-pointer text-amber-100 rounded-xl py-2 px-12"
+          >
             Call Now
           </a>
         </div>
